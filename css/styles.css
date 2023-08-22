@@ -694,10 +694,6 @@ h6 {
     height: 80px;
 }
 
-.label-subscribe {
-    color: var(--white, #FFF);
-}
-
 .last-btn-infooter {
     display: inline-flex;
     padding: 8px 24px;
