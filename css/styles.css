@@ -717,9 +717,11 @@ h6 {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2em; /* 200% */
+    line-height: 1.5em;  /* 200% */
     letter-spacing: 0.48px;
     color: #ffffff; 
+    background-color: transparent; 
+    padding-left: 16px; 
 }
 
 input::placeholder{
@@ -735,10 +737,19 @@ input::placeholder{
     background: var(--iris, #4D5AE5);
     justify-content: center;
     align-items: center;
+    min-width: 165px; 
+    height: 40px; 
+    font-weight: 500 ;
+    line-height: 1.5em;
+    letter-spacing: 0.04em ;
+    cursor: pointer ;
+    border: none; 
+
 }
 
 .svg-airplane {
     fill:  #f4f4fd;
+    margin-left: 16px; 
 }
 
 /*modal-window*/
