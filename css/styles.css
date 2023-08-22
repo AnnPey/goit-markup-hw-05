@@ -924,9 +924,12 @@ button {
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
-    fill: transparent;  
+    fill: transparent;
   }
-
+    input:checked+span {      
+        background-color: #404bbf;
+        border: none; 
+    }
   .svg-span {
     
   }
