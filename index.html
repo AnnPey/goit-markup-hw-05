@@ -501,27 +501,29 @@
                     </div>
                 </div>
                 <div class="div-in-form">
-                    <label class="label">
+                    <label class="label" for="email">
                       Email
                     </label>
                       <div class="div-for-input">
-                          <input class="input" type="email" name="email" placeholder="E-mail" />
+                          <input class="input" type="email" name="email" placeholder="E-mail" id="email" />
                           <svg class="svg-input" width="18"  height="24">
                             <use href="./images/icons.svg#email-black"></use>
                           </svg>
                       </div>
                 </div>
                 <div class="div-in-form">
-                      <label class="label">
+                      <label class="label" for="textarea">
                         Comment
                       </label>
                         <div class="div-for-input">
-                          <textarea placeholder="Text input" rows="7" cols="40"></textarea>
+                          <textarea placeholder="Text input" rows="7" cols="40" id="textarea"></textarea>
                         </div>
                 </div>
-                <label>
-                  <input type="checkbox" name="consent"> I accept the terms and conditions of the <a href="">Privacy Policy</a>
-                </label>
+                <div class="div-in-form">
+                    <label>
+                      <input type="checkbox" name="consent"> I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                    </label>
+                  </div>
                 <button class="btn-modal-window" type="submit">
                   Send
                 </button>
