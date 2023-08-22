@@ -687,6 +687,18 @@ h6 {
     border-top: none;
 }
 
+.last-btn-infooter {
+    padding: 8px 24px;
+    gap: 16px;
+    color: var(--white, #FFF);
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+}
+
+.svg-airplane {
+    fill:  #f4f4fd;
+}
+
 /*modal-window*/
 
 .backdrop {
