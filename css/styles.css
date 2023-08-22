@@ -893,6 +893,7 @@ button {
     }
 
   .btn-modal-window {
+    display: block; 
     padding: 16px 32px;
     gap: 10px;
     border-radius: 4px;
@@ -933,7 +934,8 @@ button {
     fill: transparent;
   }
   
-   input:checked+label>span  {      
+   input:checked+label>span  {   
+        fill: #F4F4FD;    
         background-color: #404bbf;
         border: none; 
     }
