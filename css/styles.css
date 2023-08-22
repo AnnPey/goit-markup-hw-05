@@ -687,6 +687,11 @@ h6 {
     border-top: none;
 }
 
+.div-footer-form {}
+
+.footer-subscribe {
+    color: var(--white, #FFF);
+}
 .form-email{
     display: flex;
     flex-direction: column;
