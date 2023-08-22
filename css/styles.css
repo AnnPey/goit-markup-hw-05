@@ -930,6 +930,8 @@ button {
         background-color: #404bbf;
         border: none; 
     }
-  .svg-span {
-    
+  .svg-span {}
+
+  .a-in-label{
+    color:  #4d5ae5;
   }
