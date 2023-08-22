@@ -69,8 +69,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
-    margin-right: 76px;
-    
+    margin-right: 76px;  
 }
 
 .logo-dark {
@@ -536,15 +535,14 @@ h6 {
 }
 
 .footer-container {
-    width: 1158px; 
     padding: 0 15px;
     margin: 0 auto;
-    align-items: center;
     display: flex;
     align-items: baseline;
 }
 
 .footer-container-logo {
+    margin-left: 156px;
     margin-right: 120px;
     margin-bottom: 16px;
 }
@@ -703,6 +701,8 @@ h6 {
 .form-email{
     width: 453px;
     height: 80px;
+    display: flex; 
+    gap: 24px;
 }
 
 .label-in-footer{}
@@ -728,7 +728,6 @@ input::placeholder{
 }
 
 .last-btn-infooter {
-    display: inline-flex;
     padding: 8px 24px;
     gap: 16px;
     color: var(--white, #FFF);
@@ -743,6 +742,7 @@ input::placeholder{
     letter-spacing: 0.04em ;
     cursor: pointer ;
     border: none; 
+    display: flex;
 
 }
 
