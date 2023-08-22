@@ -813,8 +813,6 @@ button {
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
     gap: 12px;
     padding: 8px;
     max-width: 360px;
@@ -934,7 +932,8 @@ button {
     justify-content: center; 
     fill: transparent;
   }
-    input:checked {      
+  
+   input:checked+label>span  {      
         background-color: #404bbf;
         border: none; 
     }
