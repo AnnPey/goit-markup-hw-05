@@ -478,31 +478,40 @@
 
           <form  class="form">
             <div class="div-in-form">
-                <label>
+                <label class="label" for="user-name">
                   Name
-                  <input type="text" name="username">
-                  <svg  width="18" height="18">
+                </label>
+                <div>
+                    <svg  width="18" height="18">
                       <use href="./images/icons.svg#person-black"></use>
-                  </svg>
-                </label>
-                <label>
+                    </svg>
+                      <input type="text" name="username" id="user-name">
+               </div>
+                <label class="label" for="phone">
                   Phone
-                  <input type="tel" name="username">
-                  <svg  width="18" height="24">
-                    <use href="./images/icons.svg#phone-black"></use>
-                </svg>
                 </label>
+                  <div>
+                      <svg  width="18" height="24">
+                        <use href="./images/icons.svg#phone-black"></use>
+                    </svg>
+                      <input type="tel" name="username" id="phone">
+                  </div>
+                
                 <label>
                   Email
-                  <input type="email" name="email" placeholder="E-mail" />
-                  <svg  width="18" height="24">
-                    <use href="./images/icons.svg#email-black"></use>
-                </svg>
                 </label>
-                <label>
+                   <div>
+                      <svg  width="18" height="24">
+                        <use href="./images/icons.svg#email-black"></use>
+                      </svg>
+                      <input type="email" name="email" placeholder="E-mail" />
+                    </div>
+                <label class="label">
                   Comment
-                  <textarea placeholder="Text input"></textarea>
                 </label>
+                  <div>
+                     <textarea placeholder="Text input" rows="7" cols="40"></textarea>
+                  </div>
                 <label>
                   <input type="checkbox" name="consent"> I accept the terms and conditions of the <a href="">Privacy Policy</a>
                 </label>
