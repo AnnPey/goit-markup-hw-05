@@ -687,12 +687,26 @@ h6 {
     border-top: none;
 }
 
+.form-email{
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    height: 80px;
+}
+
+.label-subscribe {
+    color: var(--white, #FFF);
+}
+
 .last-btn-infooter {
+    display: inline-flex;
     padding: 8px 24px;
     gap: 16px;
     color: var(--white, #FFF);
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
+    justify-content: center;
+    align-items: center;
 }
 
 .svg-airplane {
