@@ -687,7 +687,9 @@ h6 {
     border-top: none;
 }
 
-.div-footer-form {}
+.div-footer-form {
+    margin-left: 189px;
+}
 
 .footer-subscribe {
     color: #ffffff; 
@@ -699,11 +701,8 @@ h6 {
 }
 
 .form-email{
-    display: flex;
-    flex-direction: column;
     width: 453px;
     height: 80px;
-    gap: 24px;
 }
 
 .label-in-footer{}
