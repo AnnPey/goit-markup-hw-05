@@ -697,11 +697,17 @@ h6 {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+
 .form-email{
     display: flex;
     flex-direction: column;
     width: 453px;
     height: 80px;
+    gap: 24px;
+}
+
+.label-in-footer{
+
 }
 
 .last-btn-infooter {
