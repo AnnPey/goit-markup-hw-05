@@ -316,7 +316,7 @@ svg{
     margin: 0;
 }
 
-.h-three {
+.h-three-i {
     color: var(--navyblue, #2E2F42);
     font-family: 'Roboto';
     font-size: 20px;
@@ -649,8 +649,19 @@ h6 {
     padding-bottom: 0px;
     justify-content: center;
     background: var(--white, #FFF);
-    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px; 
+}
+
+.h-three {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em; /* 120% */
+    letter-spacing: 0.4px;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .iris1 {}
@@ -830,10 +841,7 @@ button {
 }
 
 .form {
-    gap: 12px;
-    padding: 8px;
-    max-width: 360px;
-    max-height: 456px;
+    gap: 12px;  
   }
 
   .div-in-form-one {
